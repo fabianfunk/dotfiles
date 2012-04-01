@@ -35,7 +35,6 @@ set textwidth=78
 " Change buffer - without saving
 set hidden
 set nu
-set hidden
 set hlsearch
 set incsearch
 set showmatch
