@@ -56,6 +56,10 @@ call vundle#rc()
 " let Vundle manage Vundle
 " required! 
 Bundle 'gmarik/vundle'
+Bundle 'tpope/vim-vividchalk'
 Bundle 'LustyJuggler'
 Bundle 'bufexplorer.zip'
 Bundle 'fugitive.vim'
+
+
+colorscheme vividchalk
