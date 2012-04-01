@@ -43,7 +43,7 @@ set ignorecase
 set smartcase
 
 " Mappings
-map <LEADER>o \be
+map <LEADER>o :BufExplorer<CR>
 map <LEADER>, :LustyJuggler<CR>
 imap jj 
 map <right> :bn<cr>
