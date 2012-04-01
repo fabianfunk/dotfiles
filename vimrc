@@ -27,10 +27,10 @@ set mousehide
 
 " Tabstops and general formating
 set tabstop=4 "An indentation level every four columns"
-set expandtab "Convert all tabs typed into spaces"
 set shiftwidth=4 "Indent/outdent by four columns"
-set shiftround "Always indent/outdent to the nearest tabstop"
 set textwidth=78
+set expandtab "Convert all tabs typed into spaces"
+set shiftround "Always indent/outdent to the nearest tabstop"
 
 " Change buffer - without saving
 set hidden
