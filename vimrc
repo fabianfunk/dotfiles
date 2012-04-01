@@ -48,3 +48,15 @@ map <LEADER>, :LustyJuggler<CR>
 imap jj 
 map <right> :bn<cr>
 map <left> :bp<cr>
+
+
+" Plugin Manager
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+Bundle 'LustyJuggler'
+Bundle 'bufexplorer.zip'
+Bundle 'fugitive.vim'
