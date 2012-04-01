@@ -16,6 +16,7 @@ set guifont=Courier\ New:h18
 let mapleader=","
 
 set wildmenu
+set wildmode=longest:full
 set clipboard=unnamed
 set visualbell
 
